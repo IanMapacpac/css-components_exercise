@@ -14,6 +14,17 @@ p {
   padding: 0;
 }
 
+h1{
+    color: #c30052;
+    font-size: 30px;
+}
+
+h2{
+    color: #333;
+    font-size: 25px;
+    text-align: center;
+}
+
 .container {
   display: grid;
   min-height: 90vh;
@@ -24,12 +35,15 @@ p {
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
   min-width: 25rem;
+  padding: 10px;
 }
 
 .card-horizontal {
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
   max-width: 32rem;
+  margin: 10px;
+  padding: 20px;
 }
 
 .box {
@@ -37,6 +51,19 @@ p {
   min-height: 20rem;
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
+}
+
+.box--flame{
+    background-image: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
+
+.box--ice{
+    background-image: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+}
+
+.box--wind{
+    background-image: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    
 }
 
 hr {
@@ -49,6 +76,8 @@ button {
   box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.444);
   cursor: pointer;
   display: block;
+  padding: 10px 20px;
+  align-content: center;
 }
 
 .wrapper {
@@ -67,4 +96,13 @@ button {
     flex-direction: column;
     max-width: 90vw;
   }
+}
+
+.wrapper--mini_Title{
+    font-size: 15px;
+    color: #fff;
+}
+
+.wrapper--mini_Title__p_size{
+    font-size: 13px;
 }
